@@ -10,6 +10,7 @@ COPY ./start.sh /start.sh
 RUN apt-get -y update && apt-get -y dist-upgrade && // 
 apt-get -y install metasploit-framework && //
 apt-get -y install git && //
+pt-get -y install wpscan && //
 apt-get clean && //
 service postgresql start && //
 msfdb init && //
