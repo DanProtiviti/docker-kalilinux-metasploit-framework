@@ -1,6 +1,6 @@
 FROM kalilinux/kali-linux-docker
 
-MAINTAINER dubirajara
+MAINTAINER Danilo PC
 
 ENV DEBIAN_FRONTEND noninteractive
 
